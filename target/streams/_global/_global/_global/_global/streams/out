@@ -1,0 +1,146 @@
+[debug] [watch] [prayground / Compile / run] Found inputs: C:\Users\bruno_000\IdeaProjects\Prayground\*.{java,scala},C:\Users\bruno_000\IdeaProjects\Prayground\src\main\java\**\*.{java,scala},C:\Users\bruno_000\IdeaProjects\Prayground\src\main\resources\**\*,C:\Users\bruno_000\IdeaProjects\Prayground\src\main\scala\**\*.{java,scala},C:\Users\bruno_000\IdeaProjects\Prayground\src\main\scala-2.12\**\*.{java,scala}
+[info] 1. Monitoring source files for prayground/run...
+[info]    Press <enter> to interrupt or '?' for more options.
+[debug] prayground / Compile / run - Accepted event for C:\Users\bruno_000\IdeaProjects\Prayground\src\main\scala\Main.scala
+[debug] Received Update(C:\Users\bruno_000\IdeaProjects\Prayground\src\main\scala\Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))
+[debug] prayground / Compile / run - Accepted event for C:\Users\bruno_000\IdeaProjects\Prayground\src\main\scala\Main.scala
+[debug] Received Update(C:\Users\bruno_000\IdeaProjects\Prayground\src\main\scala\Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))
+[debug] prayground / Compile / run - Accepted event for C:\Users\bruno_000\IdeaProjects\Prayground\src\main\scala\Main.scala
+[debug] Received Update(C:\Users\bruno_000\IdeaProjects\Prayground\src\main\scala\Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))
+[debug] Received event for path C:\Users\bruno_000\IdeaProjects\Prayground\src\main\scala\Main.scala
+[debug] Received event for path C:\Users\bruno_000\IdeaProjects\Prayground\src\main\scala\Main.scala
+[debug] Creating update event for modified C:\Users\bruno_000\IdeaProjects\Prayground\src\main\scala\Main.scala (previous stamp: Hash(0322883b7925d538d14b6631863478598a4810ed), current stamp: Hash(5a3495cc9f3b3d5b039a0930c368d5d2c0da859a))
+[debug] Received file event actions: C:\Users\bruno_000\IdeaProjects\Prayground\src\main\scala\Main.scala -> Trigger. Returning: (Update(C:\Users\bruno_000\IdeaProjects\Prayground\src\main\scala\Main.scala, 2019-Sep-05 12:41:36.482 BRT),Trigger)
+[info] Build triggered by C:\Users\bruno_000\IdeaProjects\Prayground\src\main\scala\Main.scala. Running 'run'.
+[debug] [watch] [debug] Received file event Trigger for Update(C:\Users\bruno_000\IdeaProjects\Prayground\src\main\scala\Main.scala, 2019-Sep-05 12:41:36.482 BRT).
+[info] 2. Monitoring source files for prayground/run...
+[info]    Press <enter> to interrupt or '?' for more options.
+[debug] Discarding entry for recently updated path C:\Users\bruno_000\IdeaProjects\Prayground\src\main\scala\Main.scala. This event occurred 9 ms since the last event for this path.
+[debug] prayground / Compile / run - Accepted event for C:\Users\bruno_000\IdeaProjects\Prayground\src\main\scala\Main.scala
+[debug] Received Update(C:\Users\bruno_000\IdeaProjects\Prayground\src\main\scala\Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))
+[debug] prayground / Compile / run - Accepted event for C:\Users\bruno_000\IdeaProjects\Prayground\src\main\scala\Main.scala
+[debug] Received Update(C:\Users\bruno_000\IdeaProjects\Prayground\src\main\scala\Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))
+[debug] prayground / Compile / run - Accepted event for C:\Users\bruno_000\IdeaProjects\Prayground\src\main\scala\Main.scala
+[debug] Received Update(C:\Users\bruno_000\IdeaProjects\Prayground\src\main\scala\Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))
+[debug] Received event for path C:\Users\bruno_000\IdeaProjects\Prayground\src\main\scala\Main.scala
+[debug] Received event for path C:\Users\bruno_000\IdeaProjects\Prayground\src\main\scala\Main.scala
+[debug] Creating update event for modified C:\Users\bruno_000\IdeaProjects\Prayground\src\main\scala\Main.scala (previous stamp: Hash(5a3495cc9f3b3d5b039a0930c368d5d2c0da859a), current stamp: Hash(7db5526d2f100d6979704e0662854b83ef2cc4ce))
+[debug] Received file event actions: C:\Users\bruno_000\IdeaProjects\Prayground\src\main\scala\Main.scala -> Trigger. Returning: (Update(C:\Users\bruno_000\IdeaProjects\Prayground\src\main\scala\Main.scala, 2019-Sep-05 12:42:24.269 BRT),Trigger)
+[info] Build triggered by C:\Users\bruno_000\IdeaProjects\Prayground\src\main\scala\Main.scala. Running 'run'.
+[debug] [watch] [debug] Received file event Trigger for Update(C:\Users\bruno_000\IdeaProjects\Prayground\src\main\scala\Main.scala, 2019-Sep-05 12:42:24.269 BRT).
+[info] 3. Monitoring source files for prayground/run...
+[info]    Press <enter> to interrupt or '?' for more options.
+[debug] prayground / Compile / run - Accepted event for C:\Users\bruno_000\IdeaProjects\Prayground\src\main\scala\Main.scala
+[debug] Received Update(C:\Users\bruno_000\IdeaProjects\Prayground\src\main\scala\Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))
+[debug] prayground / Compile / run - Accepted event for C:\Users\bruno_000\IdeaProjects\Prayground\src\main\scala\Main.scala
+[debug] Received Update(C:\Users\bruno_000\IdeaProjects\Prayground\src\main\scala\Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))
+[debug] prayground / Compile / run - Accepted event for C:\Users\bruno_000\IdeaProjects\Prayground\src\main\scala\Main.scala
+[debug] Received Update(C:\Users\bruno_000\IdeaProjects\Prayground\src\main\scala\Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))
+[debug] Received event for path C:\Users\bruno_000\IdeaProjects\Prayground\src\main\scala\Main.scala
+[debug] Received event for path C:\Users\bruno_000\IdeaProjects\Prayground\src\main\scala\Main.scala
+[debug] Creating update event for modified C:\Users\bruno_000\IdeaProjects\Prayground\src\main\scala\Main.scala (previous stamp: Hash(7db5526d2f100d6979704e0662854b83ef2cc4ce), current stamp: Hash(e6a3ac9dd8fcdfc347265e5842d4a919a0287235))
+[debug] Received file event actions: C:\Users\bruno_000\IdeaProjects\Prayground\src\main\scala\Main.scala -> Trigger. Returning: (Update(C:\Users\bruno_000\IdeaProjects\Prayground\src\main\scala\Main.scala, 2019-Sep-05 12:42:55.351 BRT),Trigger)
+[info] Build triggered by C:\Users\bruno_000\IdeaProjects\Prayground\src\main\scala\Main.scala. Running 'run'.
+[debug] [watch] [debug] Received file event Trigger for Update(C:\Users\bruno_000\IdeaProjects\Prayground\src\main\scala\Main.scala, 2019-Sep-05 12:42:55.351 BRT).
+[info] 4. Monitoring source files for prayground/run...
+[info]    Press <enter> to interrupt or '?' for more options.
+[debug] prayground / Compile / run - Accepted event for C:\Users\bruno_000\IdeaProjects\Prayground\src\main\scala\Main.scala
+[debug] Received Update(C:\Users\bruno_000\IdeaProjects\Prayground\src\main\scala\Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))
+[debug] prayground / Compile / run - Accepted event for C:\Users\bruno_000\IdeaProjects\Prayground\src\main\scala\Main.scala
+[debug] Received Update(C:\Users\bruno_000\IdeaProjects\Prayground\src\main\scala\Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))
+[debug] prayground / Compile / run - Accepted event for C:\Users\bruno_000\IdeaProjects\Prayground\src\main\scala\Main.scala
+[debug] Received Update(C:\Users\bruno_000\IdeaProjects\Prayground\src\main\scala\Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))
+[debug] Received event for path C:\Users\bruno_000\IdeaProjects\Prayground\src\main\scala\Main.scala
+[debug] Received event for path C:\Users\bruno_000\IdeaProjects\Prayground\src\main\scala\Main.scala
+[debug] Creating update event for modified C:\Users\bruno_000\IdeaProjects\Prayground\src\main\scala\Main.scala (previous stamp: Hash(e6a3ac9dd8fcdfc347265e5842d4a919a0287235), current stamp: Hash(01ac736885e0b68833e7774e0a8f93f6375374da))
+[debug] Received file event actions: C:\Users\bruno_000\IdeaProjects\Prayground\src\main\scala\Main.scala -> Trigger. Returning: (Update(C:\Users\bruno_000\IdeaProjects\Prayground\src\main\scala\Main.scala, 2019-Sep-05 12:43:02.311 BRT),Trigger)
+[info] Build triggered by C:\Users\bruno_000\IdeaProjects\Prayground\src\main\scala\Main.scala. Running 'run'.
+[debug] [watch] [debug] Received file event Trigger for Update(C:\Users\bruno_000\IdeaProjects\Prayground\src\main\scala\Main.scala, 2019-Sep-05 12:43:02.311 BRT).
+[info] 5. Monitoring source files for prayground/run...
+[info]    Press <enter> to interrupt or '?' for more options.
+[debug] [watch] [debug] Received input event: Trigger.
+[debug] [watch] [debug] Received input event: Trigger.
+[info] 6. Monitoring source files for prayground/run...
+[info]    Press <enter> to interrupt or '?' for more options.
+[debug] prayground / Compile / run - Accepted event for C:\Users\bruno_000\IdeaProjects\Prayground\src\main\scala\Main.scala
+[debug] Received Deletion(C:\Users\bruno_000\IdeaProjects\Prayground\src\main\scala\Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))
+[debug] Quarantining deletion event for path C:\Users\bruno_000\IdeaProjects\Prayground\src\main\scala\Main.scala for 500 milliseconds
+[debug] prayground / Compile / run - Accepted event for C:\Users\bruno_000\IdeaProjects\Prayground\src\main\scala\Main.scala
+[debug] Received Creation(C:\Users\bruno_000\IdeaProjects\Prayground\src\main\scala\Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))
+[debug] Triggering event for newly created path C:\Users\bruno_000\IdeaProjects\Prayground\src\main\scala\Main.scala that was previously quarantined.
+[debug] Received event for path C:\Users\bruno_000\IdeaProjects\Prayground\src\main\scala\Main.scala
+[debug] Creating update event for modified C:\Users\bruno_000\IdeaProjects\Prayground\src\main\scala\Main.scala (previous stamp: Hash(01ac736885e0b68833e7774e0a8f93f6375374da), current stamp: Hash(dd1ea7679efe1ce239d1b8f91a2534c777db988b))
+[debug] Received file event actions: C:\Users\bruno_000\IdeaProjects\Prayground\src\main\scala\Main.scala -> Trigger. Returning: (Update(C:\Users\bruno_000\IdeaProjects\Prayground\src\main\scala\Main.scala, 2019-Sep-05 12:44:51.443 BRT),Trigger)
+[debug] prayground / Compile / run - Accepted event for C:\Users\bruno_000\IdeaProjects\Prayground\src\main\scala\Main.scala
+[debug] Received Update(C:\Users\bruno_000\IdeaProjects\Prayground\src\main\scala\Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))
+[info] Build triggered by C:\Users\bruno_000\IdeaProjects\Prayground\src\main\scala\Main.scala. Running 'run'.
+[debug] [watch] [debug] Received file event Trigger for Update(C:\Users\bruno_000\IdeaProjects\Prayground\src\main\scala\Main.scala, 2019-Sep-05 12:44:51.443 BRT).
+[info] 7. Monitoring source files for prayground/run...
+[info]    Press <enter> to interrupt or '?' for more options.
+[debug] Discarding entry for recently updated path C:\Users\bruno_000\IdeaProjects\Prayground\src\main\scala\Main.scala. This event occurred 20 ms since the last event for this path.
+[debug] [watch] [debug] Received input event: Trigger.
+[debug] [watch] [debug] Received input event: Trigger.
+[info] 8. Monitoring source files for prayground/run...
+[info]    Press <enter> to interrupt or '?' for more options.
+[debug] [watch] [debug] Received input event: Trigger.
+[debug] [watch] [debug] Received input event: Trigger.
+[info] 9. Monitoring source files for prayground/run...
+[info]    Press <enter> to interrupt or '?' for more options.
+[debug] [watch] [debug] Received input event: Run(iflast shell).
+[debug] [watch] [debug] Received input event: Run(iflast shell).
+Directory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))
+[debug] prayground / Compile / run - Accepted event for C:\Users\bruno_000\IdeaProjects\Prayground\src\main\scala\Main.scala
+[debug] Received Update(C:\Users\bruno_000\IdeaProjects\Prayground\src\main\scala\Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))
+[debug] Received event for path C:\Users\bruno_000\IdeaProjects\Prayground\src\main\scala\Main.scala
+[debug] Received event for path C:\Users\bruno_000\IdeaProjects\Prayground\src\main\scala\Main.scala
+[debug] Creating update event for modified C:\Users\bruno_000\IdeaProjects\Prayground\src\main\scala\Main.scala (previous stamp: Hash(7db5526d2f100d6979704e0662854b83ef2cc4ce), current stamp: Hash(e6a3ac9dd8fcdfc347265e5842d4a919a0287235))
+[debug] Received file event actions: C:\Users\bruno_000\IdeaProjects\Prayground\src\main\scala\Main.scala -> Trigger. Returning: (Update(C:\Users\bruno_000\IdeaProjects\Prayground\src\main\scala\Main.scala, 2019-Sep-05 12:42:55.346 BRT),Trigger)
+[info] Build triggered by C:\Users\bruno_000\IdeaProjects\Prayground\src\main\scala\Main.scala. Running 'run'.
+[debug] [watch] [debug] Received file event Trigger for Update(C:\Users\bruno_000\IdeaProjects\Prayground\src\main\scala\Main.scala, 2019-Sep-05 12:42:55.346 BRT).
+[info] 7. Monitoring source files for prayground/run...
+[info]    Press <enter> to interrupt or '?' for more options.
+[debug] prayground / Compile / run - Accepted event for C:\Users\bruno_000\IdeaProjects\Prayground\src\main\scala\Main.scala
+[debug] Received Update(C:\Users\bruno_000\IdeaProjects\Prayground\src\main\scala\Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))
+[debug] prayground / Compile / run - Accepted event for C:\Users\bruno_000\IdeaProjects\Prayground\src\main\scala\Main.scala
+[debug] Received Update(C:\Users\bruno_000\IdeaProjects\Prayground\src\main\scala\Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))
+[debug] prayground / Compile / run - Accepted event for C:\Users\bruno_000\IdeaProjects\Prayground\src\main\scala\Main.scala
+[debug] Received Update(C:\Users\bruno_000\IdeaProjects\Prayground\src\main\scala\Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))
+[debug] Received event for path C:\Users\bruno_000\IdeaProjects\Prayground\src\main\scala\Main.scala
+[debug] Received event for path C:\Users\bruno_000\IdeaProjects\Prayground\src\main\scala\Main.scala
+[debug] Creating update event for modified C:\Users\bruno_000\IdeaProjects\Prayground\src\main\scala\Main.scala (previous stamp: Hash(e6a3ac9dd8fcdfc347265e5842d4a919a0287235), current stamp: Hash(01ac736885e0b68833e7774e0a8f93f6375374da))
+[debug] Received file event actions: C:\Users\bruno_000\IdeaProjects\Prayground\src\main\scala\Main.scala -> Trigger. Returning: (Update(C:\Users\bruno_000\IdeaProjects\Prayground\src\main\scala\Main.scala, 2019-Sep-05 12:43:02.326 BRT),Trigger)
+[info] Build triggered by C:\Users\bruno_000\IdeaProjects\Prayground\src\main\scala\Main.scala. Running 'run'.
+[debug] [watch] [debug] Received file event Trigger for Update(C:\Users\bruno_000\IdeaProjects\Prayground\src\main\scala\Main.scala, 2019-Sep-05 12:43:02.326 BRT).
+[info] 8. Monitoring source files for prayground/run...
+[info]    Press <enter> to interrupt or '?' for more options.
+[debug] prayground / Compile / run - Accepted event for C:\Users\bruno_000\IdeaProjects\Prayground\src\main\scala\Main.scala
+[debug] Received Deletion(C:\Users\bruno_000\IdeaProjects\Prayground\src\main\scala\Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))
+[debug] Quarantining deletion event for path C:\Users\bruno_000\IdeaProjects\Prayground\src\main\scala\Main.scala for 500 milliseconds
+[debug] prayground / Compile / run - Accepted event for C:\Users\bruno_000\IdeaProjects\Prayground\src\main\scala\Main.scala
+[debug] Received Creation(C:\Users\bruno_000\IdeaProjects\Prayground\src\main\scala\Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))
+[debug] Triggering event for newly created path C:\Users\bruno_000\IdeaProjects\Prayground\src\main\scala\Main.scala that was previously quarantined.
+[debug] Received event for path C:\Users\bruno_000\IdeaProjects\Prayground\src\main\scala\Main.scala
+[debug] Creating update event for modified C:\Users\bruno_000\IdeaProjects\Prayground\src\main\scala\Main.scala (previous stamp: Hash(01ac736885e0b68833e7774e0a8f93f6375374da), current stamp: Hash(dd1ea7679efe1ce239d1b8f91a2534c777db988b))
+[debug] Received file event actions: C:\Users\bruno_000\IdeaProjects\Prayground\src\main\scala\Main.scala -> Trigger. Returning: (Update(C:\Users\bruno_000\IdeaProjects\Prayground\src\main\scala\Main.scala, 2019-Sep-05 12:44:51.443 BRT),Trigger)
+[debug] prayground / Compile / run - Accepted event for C:\Users\bruno_000\IdeaProjects\Prayground\src\main\scala\Main.scala
+[debug] Received Update(C:\Users\bruno_000\IdeaProjects\Prayground\src\main\scala\Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))
+[info] Build triggered by C:\Users\bruno_000\IdeaProjects\Prayground\src\main\scala\Main.scala. Running 'run'.
+[debug] [watch] [debug] Received file event Trigger for Update(C:\Users\bruno_000\IdeaProjects\Prayground\src\main\scala\Main.scala, 2019-Sep-05 12:44:51.443 BRT).
+[info] 9. Monitoring source files for prayground/run...
+[info]    Press <enter> to interrupt or '?' for more options.
+[debug] Discarding entry for recently updated path C:\Users\bruno_000\IdeaProjects\Prayground\src\main\scala\Main.scala. This event occurred 18 ms since the last event for this path.
+[debug] prayground / Compile / run - Accepted event for C:\Users\bruno_000\IdeaProjects\Prayground\src\main\scala\Main.scala
+[debug] Received Deletion(C:\Users\bruno_000\IdeaProjects\Prayground\src\main\scala\Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))
+[debug] Quarantining deletion event for path C:\Users\bruno_000\IdeaProjects\Prayground\src\main\scala\Main.scala for 500 milliseconds
+[debug] prayground / Compile / run - Accepted event for C:\Users\bruno_000\IdeaProjects\Prayground\src\main\scala\Main.scala
+[debug] Received Update(C:\Users\bruno_000\IdeaProjects\Prayground\src\main\scala\Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))
+[debug] prayground / Compile / run - Accepted event for C:\Users\bruno_000\IdeaProjects\Prayground\src\main\scala\Main.scala
+[debug] Received Creation(C:\Users\bruno_000\IdeaProjects\Prayground\src\main\scala\Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))
+[debug] Triggering event for newly created path C:\Users\bruno_000\IdeaProjects\Prayground\src\main\scala\Main.scala that was previously quarantined.
+[debug] Received event for path C:\Users\bruno_000\IdeaProjects\Prayground\src\main\scala\Main.scala
+[debug] Creating update event for modified C:\Users\bruno_000\IdeaProjects\Prayground\src\main\scala\Main.scala (previous stamp: Hash(dd1ea7679efe1ce239d1b8f91a2534c777db988b), current stamp: Hash(a988facf462a357579ab92a6c062fff72307d963))
+[debug] Received file event actions: C:\Users\bruno_000\IdeaProjects\Prayground\src\main\scala\Main.scala -> Trigger. Returning: (Update(C:\Users\bruno_000\IdeaProjects\Prayground\src\main\scala\Main.scala, 2019-Sep-05 12:52:00.630 BRT),Trigger)
+[info] Build triggered by C:\Users\bruno_000\IdeaProjects\Prayground\src\main\scala\Main.scala. Running 'run'.
+[debug] [watch] [debug] Received file event Trigger for Update(C:\Users\bruno_000\IdeaProjects\Prayground\src\main\scala\Main.scala, 2019-Sep-05 12:52:00.630 BRT).
+[info] 10. Monitoring source files for prayground/run...
+[info]     Press <enter> to interrupt or '?' for more options.
