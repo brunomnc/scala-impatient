@@ -1,14 +1,14 @@
-import scala.math.BigInt._
 import scala.util.Random
 import scala.collection.immutable.TreeMap
 import java.util.TimeZone.getAvailableIDs
 import scala.io._
 import java.util.Calendar._
+import scala.beans.BeanProperty
 
 
 object Main {
   def main(args: Array[String]): Unit = {
-    chapter4()
+    chapter6()
   }
 
   def chapter2() : Unit = {
@@ -122,5 +122,156 @@ object Main {
     }
     println(minmax(rndvals))
 
+    /*
+    Write a function lteqgt(values: Array[Int], v: Int) that returns a triple containing
+    the counts of values less than v, equal to v, and greater than v.
+     */
+    val r = Array.fill(20)(Random.nextInt(50))
+    def lteqgt(values: Array[Int], v: Int): (Int, Int, Int) = {
+      val lst= values.map(m => (m < v, m == v, m > v))
+      (lst.count(_._1 == true), lst.count(_._2 == true), lst.count(_._3 == true))
+    }
+    println(lteqgt(r, 25))
+  }
+
+  //Classes
+  def chapter5() = {
+    /*
+    Improve the Counter class in Section 5.1, “Simple Classes and Parameterless
+    Methods,” on page 51 so that it doesn't turn negative at Int.MaxValue.
+     */
+    class Counter_ {
+      private var value = 0
+      def increment() { if(value == Integer.MAX_VALUE) value=0 else value+=1 }
+      def current() = value
+    }
+
+    /*
+    Write a class BankAccount with methods deposit and withdraw, and a read-only
+    property balance
+     */
+    class BankAccount {
+      var balance = 0.0
+      def deposit(value: Double) { balance += value}
+      def withdraw(value: Double) {balance -= value}
+    }
+
+    /*
+    Write a class Time with read-only properties hours and minutes and a method
+    before(other: Time): Boolean that checks whether this time comes before the
+    other. A Time object should be constructed as new Time(hrs, min), where hrs is in
+    military time format (between 0 and 23).
+     */
+    class Time(_hrs:Int, _min:Int){
+      var hrs = if(_hrs < 0 || _hrs > 23) 0 else _hrs
+      var min = if(_min < 0 || _min > 60) 0 else _min
+      def before(h: Int, m: Int): Boolean = {
+        if(h < hrs)
+          true
+        else
+          if(h == hrs)
+            if(m < min)
+              true else false
+        else
+          false
+      }
+    }
+
+    /*
+    Make a class Student with read-write JavaBeans properties name (of type String)
+    and id (of type Long). What methods are generated? (Use javap to check.) Can
+    you call the JavaBeans getters and setters in Scala? Should you?
+     */
+    class Student(@BeanProperty name: String, @BeanProperty id:Long){}
+
+    /*
+    Make a class Car with read-only properties for manufacturer, model name,
+    and model year, and a read-write property for the license plate. Supply four
+    constructors. All require the manufacturer and model name. Optionally,
+    model year and license plate can also be specified in the constructor. If not,
+    the model year is set to -1 and the license plate to the empty string. Which
+    constructor are you choosing as the primary constructor? Why?
+     */
+    class Car(val manufacturer: String, val model: String, val year: Int, var license : String){
+      def this(manufacturer: String, model: String, year: Int){
+        this(manufacturer, model, year, "")
+      }
+
+      def this(manufacturer: String, model: String, license: String){
+        this(manufacturer, model, -1, license)
+      }
+
+      def this(manufacturer: String, model: String){
+        this(manufacturer, model, -1, "")
+      }
+    }
+    /*
+     Consider the class
+      class Employee(val name: String, var salary: Double) {
+       def this() { this("John Q. Public", 0.0) }
+      }
+      Rewrite it to use explicit fields and a default primary constructor. Which form
+      do you prefer? Why?
+     */
+    class Employee {
+      private var name = ""
+      var salary = 0.0
+      def this(name: String, salary: Double) {
+        this()
+        this.name = "John Q"
+        this.salary = 0.0
+      }
+    }
+  }
+  //Objects
+  def chapter6(): Unit =
+  {
+    /*
+    Write an object Conversions with methods inchesToCentimeters, gallonsToLiters, and
+    milesToKilometers.
+     */
+    object Conversions{
+      def inchesToCentimeters(in:Double) = in*2.54
+
+      def gallonsToLiters(gallons: Double) = gallons*3.78
+
+      def milesToKilometers(miles:Double) = miles*1.6
+    }
+
+    /*
+    The preceding problem wasn’t very object-oriented.
+    Provide a general superclass UnitConversion and define objects InchesToCentimeters, GallonsToLiters, and
+    MilesToKilometers that extend it.
+     */
+    abstract class UnitConversion {
+      def inchesToCentimeters(value: Double) : Double
+      def gallonsToLiters(value: Double) : Double
+      def milesToKilometers(value: Double): Double
+    }
+
+    object Converter extends UnitConversion{
+      override def inchesToCentimeters(value: Double)= value*2.54
+      override def gallonsToLiters(value: Double)=value*3.78
+      override def milesToKilometers(value: Double)=value*1.60
+    }
+
+    /*
+    Define a Point class with a companion object so that you can construct Point
+    instances as Point(3, 4), without using new.
+     */
+    class Point(val x: Int,val y: Int) {}
+    object Point {
+      def apply(x: Int, y: Int): Point = new Point(x, y)
+    }
+    /*
+    Write an enumeration describing the four playing card suits so that the toString
+    method returns ♣, ♦, ♥, or ♠.
+     */
+    object Cards extends Enumeration {
+      val hearts = "♥"
+      val tiles = "♦"
+      val clovers = "♣"
+      val pikes = "♠"
+    }
   }
 }
